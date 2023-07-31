@@ -1,9 +1,14 @@
-.filterName {
+.labelFilter {
   display: flex;
   flex-direction: column;
-  margin: 0.5rem auto 1rem;
-  align-items: center;
-  font-size: large;
-  text-align: left;
-  padding: 0.5rem 15rem 0.5rem 1rem;
+  margin: 30px 0 20px 0;
+  font-size: 15px;
+  
+}
+.inputFilter {
+  margin-top: 10px;
+  border-color: rgb(166, 255, 0);
+}
+.inputFilter:focus {
+  border-color: rgb(191, 110, 110);
 }
